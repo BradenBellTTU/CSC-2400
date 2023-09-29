@@ -31,7 +31,6 @@ try:
     A = int(sys.argv[1])
     B = int(sys.argv[2])
 except ValueError:
-    print("Input Error: Please provide integers greater than 0 as input.")
     sys.exit(1)
 
 
@@ -45,8 +44,17 @@ def extended_euclid(a, b):
     Returns:
     Tuple containing gcd, x, and y.
     """
-    if a <= 0 or b <= 0:
+    a = abs(a)
+    b = abs(b)
+
+    if a == 0 and b == 0:
         return "undefined", 0, 0
+
+    elif a == 0:
+        return b, 0, 1
+
+    elif b == 0:
+        return a, 1, 0
 
     x0, x1 = 1, 0
     y0, y1 = 0, 1
@@ -70,8 +78,17 @@ def consecutive_integer(a, b):
     Returns:
     gcd of a and b.
     """
-    if a <= 0 or b <= 0:
+    a = abs(a)
+    b = abs(b)
+
+    if a == 0 and b == 0:
         return "undefined"
+
+    elif a == 0:
+        return b
+
+    elif b == 0:
+        return a
 
     min_value = min(a, b)
 
@@ -138,8 +155,17 @@ def middle_school(a, b):
     Returns:
     gcd of a and b.
     """
-    if a == 0 or b == 0:
+    a = abs(a)
+    b = abs(b)
+
+    if a == 0 and b == 0:
         return "undefined"
+
+    elif a == 0:
+        return b
+
+    elif b == 0:
+        return a
 
     factors_a = count_factors(prime_factors(a))
     factors_b = count_factors(prime_factors(b))
