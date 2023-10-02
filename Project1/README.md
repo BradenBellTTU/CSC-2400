@@ -1,10 +1,15 @@
 # Program: Project 1
-Author: Braden Bell\n
+Author: Braden Bell
+
 Date Created: 08/30/23
+
 Last Modified: 10/02/23
+
 Description: 
+
 This program is a command-line utility for calculating the Greatest Common Divisor (GCD)
 of two integers. It provides three different algorithms for calculating the GCD:
+
 1. Extended Euclidean Algorithm
 2. Consecutive Integer Checking Algorithm
 3. Middle School Method (Bonus)
