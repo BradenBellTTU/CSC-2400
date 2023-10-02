@@ -4,7 +4,7 @@
 - Inputs with negative numbers now return the proper GCD
 - Inputs with a negative, zero types now return the proper GCD
 
-Original Instructions:
+### Original Instructions:
 ```
 Project1
 Deadline - September 1, 23. Upload your solution to the dropbox in iLearn.
@@ -27,7 +27,7 @@ gcd(m, n) = v, where m and n are the input values, and v is the calculated GCD, 
 - Include proper documentation.
 ```
 
-Bonus Instructions:
+### Bonus Instructions:
 ```
 This bonus assignment is worth up to 35% of your grade for Project 1. Here are the specific tasks outlined for this bonus 
 assignment:
