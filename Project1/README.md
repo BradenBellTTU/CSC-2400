@@ -25,7 +25,7 @@ Usage:
 
 ### Corrections for Bonus1:
 - Inputs with negative numbers now return the proper GCD
-- Inputs with a negative, zero types now return the proper GCD
+- Inputs including a combination of a negative integer and zero now return the proper GCD
 
 ### Original Instructions:
 ```
