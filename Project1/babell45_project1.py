@@ -19,18 +19,19 @@ Description:
     assignment.
 
 Usage:
-    python3 babell45_project1.py <number_1> <number_2>
+    python3 babell45_project1.py <integer_1> <integer_2>
 """
 
 # Check for correct number of command line arguments
 if len(sys.argv) != 3:
-    print("Usage: python3 babell45_project1.py <number 1> <number 2>")
+    print("Usage: python3 babell45_project1.py <integer 1> <integer 2>")
     sys.exit(1)
 
 try:
     A = int(sys.argv[1])
     B = int(sys.argv[2])
 except ValueError:
+    print("Value Error: Please input a valid integer.")
     sys.exit(1)
 
 
