@@ -4,7 +4,7 @@ import sys
 Program: Project 1
 Author: Braden Bell
 Date Created: 08/30/23
-Last Modified: 09/07/23
+Last Modified: 10/02/23
 Description: 
     This program is a command-line utility for calculating the Greatest Common Divisor (GCD)
     of two integers. It provides three different algorithms for calculating the GCD:
@@ -24,14 +24,14 @@ Usage:
 
 # Check for correct number of command line arguments
 if len(sys.argv) != 3:
-    print("Usage: python3 babell45_project1.py <integer 1> <integer 2>")
+    print("\nUsage: python3 babell45_project1.py <integer 1> <integer 2>\n")
     sys.exit(1)
 
 try:
     A = int(sys.argv[1])
     B = int(sys.argv[2])
 except ValueError:
-    print("Value Error: Please input a valid integer.")
+    print("\nValue Error: Please input a valid integer\n")
     sys.exit(1)
 
 
