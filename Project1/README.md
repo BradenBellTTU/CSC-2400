@@ -1,5 +1,8 @@
-# Project 1 for CSC-2400.
+# Project 1 for CSC-2400
 
+## Corrections for Bonus1:
+- Inputs with negative numbers now return the proper GCD
+- Inputs with a negative, zero types now return the proper GCD
 
 Original Instructions:
 ```
@@ -76,8 +79,3 @@ gcd(-105, -65) = 5: 5%
 
 If you encounter any challenges during this process, please don't hesitate to reach out for assistance.
 ```
-
-
-The following has been corrected from the original version for bonus1:
-- Negative numbers now return the proper gcd
-- Zero, integer input combination now returns the proper gcd
