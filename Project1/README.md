@@ -19,11 +19,11 @@ in the format: gcd(m, n) = v, where m and n are the input values, and v is the c
 The program is implemented in Python and adheres to the requirements specified in the Project1 assignment.
 
 Usage:
-    python3 babell45_project1.py <integer_1> <integer_2>
+`python3 babell45_project1.py <integer_1> <integer_2>`
 
 
 
-## Corrections for Bonus1:
+### Corrections for Bonus1:
 - Inputs with negative numbers now return the proper GCD
 - Inputs with a negative, zero types now return the proper GCD
 
