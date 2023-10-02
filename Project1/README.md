@@ -1,19 +1,17 @@
 # Program: Project 1
-Author: Braden Bell
+Author: Braden Bell\n
 Date Created: 08/30/23
 Last Modified: 10/02/23
 Description: 
-    This program is a command-line utility for calculating the Greatest Common Divisor (GCD)
-    of two integers. It provides three different algorithms for calculating the GCD:
-    1. Extended Euclidean Algorithm
-    2. Consecutive Integer Checking Algorithm
-    3. Middle School Method (Bonus)
+This program is a command-line utility for calculating the Greatest Common Divisor (GCD)
+of two integers. It provides three different algorithms for calculating the GCD:
+1. Extended Euclidean Algorithm
+2. Consecutive Integer Checking Algorithm
+3. Middle School Method (Bonus)
     
-    The program takes two integers, m and n, as command-line arguments and outputs the GCD
-    in the format: gcd(m, n) = v, where m and n are the input values, and v is the calculated GCD.
-    
-    The program is implemented in Python and adheres to the requirements specified in the Project1
-    assignment.
+The program takes two integers, m and n, as command-line arguments and outputs the GCD
+in the format: gcd(m, n) = v, where m and n are the input values, and v is the calculated GCD.
+The program is implemented in Python and adheres to the requirements specified in the Project1 assignment.
 
 Usage:
     python3 babell45_project1.py <integer_1> <integer_2>
